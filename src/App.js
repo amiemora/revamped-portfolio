@@ -17,11 +17,11 @@ function App() {
 
 
 return (
-  <body className="body">
+  <div className="container">
    <Header/>
- 
+    <Feed />
    <Footer/>
-  </body>
+  </div>
 )
 }
 

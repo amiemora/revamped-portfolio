@@ -7,10 +7,11 @@ export default function Header() {
     
 
     return (
-        <header>
+        
+        <header className="body-nav">
+        
         <nav>
             <ul class='nav-bar'>
-                <img src="https://i.imgur.com/dcbYgL9.jpg[/img]" alt="Avatar" className="avatar"/>
                 <input type='checkbox' id='check' />
                 <span class="menu">
                     <li><a href="">Home</a></li>

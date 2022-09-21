@@ -3,15 +3,22 @@
 @tailwind utilities;
 @tailwindcss/forms;
 
+.container{
+  background-color: #000;
+  width: 100%;
+}
 
+
+.title-nav{
+  display: inline;
+}
 
 .avatar {
-  width: 4em;
-  height: 4em;
+  width: 7em;
+  height: 7em;
   border-radius: 10px;
   float: left;
-  margin-top: .5em;
-  margin-left: .5em;
+  
 }
 
 @keyframes tilt-shaking {
@@ -31,16 +38,17 @@
   margin: 0;
   padding: 0;
 }
-body {
+.body-nav {
   font-family: "Poppins", sans-serif;
-  --color1: #FFF ;
+  --color1: yellow ;
   --color2: black ;
+  
 }
 .nav-bar {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
   list-style: none;
   position: relative;
   background-color: var(--color2);
@@ -53,7 +61,7 @@ body {
   display: inline-block;
   text-decoration: none;
   color: var(--color1);
-  text-align: center;
+  
   transition: 0.15s ease-in-out;
   position: relative;
   text-transform: uppercase;
