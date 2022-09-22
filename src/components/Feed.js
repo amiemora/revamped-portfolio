@@ -11,7 +11,7 @@ export default function Feed() {
             </h1>
             <img className="rosie-img" src="images/rosie.png"/>
             <h2 className="intro-2 ">
-                A woman of many, breaking the glass ceiling in the industry of <br/> Software Development.
+               Software Engineer
             </h2>
             </div>
             <img className="girl-img" src='images/female.png'/>
