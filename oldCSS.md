@@ -91,6 +91,54 @@
 
 
 
+    <header className='header'>
+        
+        <img src="https://i.imgur.com/dcbYgL9.jpg[/img]" alt="Avatar" className="avatar"/>
+        <button className='nav-btn'>HOME</button>
+        <button className='nav-btn'>ABOUT</button>
+        <button className='nav-btn'>RESUME</button>
+        <button className='nav-btn'>PROJECTS</button>
+        <button className='nav-btn'>CONTACT</button>
+
+        <i class="fa-solid fa-envelope fa-2xl"></i>
+        <i class="fa-solid fa-person-chalkboard fa-2xl"></i>
+        <i class="fa-solid fa-receipt fa-2xl"></i>
+        <i class="fa-solid fa-book-open-reader fa-2xl"></i>
+        <i class="fa-solid fa-house fa-2xl fa-2xl"></i>
+      
+      </header>
+
+
+        <div>
+              <nav className="fixed-bottom">
+            <div className="container-fluid">
+                <li className="footer">
+                    <a  href="https://github.com/amiemora"><i className="fa-brands fa-github fa-2xl"></i></a>
+                </li>
+                <li className="footer">
+                    <a href="https://www.linkedin.com/in/amie-morales-101b38223/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </li> 
+                <li className="footer">
+                    <a href="https://www.instagram.com/fullstackamie/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                </li> 
+            </div>
+        </nav>
+        </div>
+
+
+<img className="comp-img" src='https://media.istockphoto.com/vectors/coding-and-programming-app-in-laptop-for-web-developer-concept-based-vector-id1208331137?k=20&m=1208331137&s=170667a&w=0&h=2xWEFHrd_JPFb_8NRuJgzDsiJlfhzvhLwwG-FPjgSrQ='/>
+
+
+
+   <header className='header'>
+      <img src="https://i.imgur.com/dcbYgL9.jpg[/img]" alt="Avatar" className="avatar"/>
+      <button className='nav-btn'>HOME</button>
+      <button className='nav-btn'>ABOUT</button>
+      <button className='nav-btn'>RESUME</button>
+      <button className='nav-btn'>PROJECTS</button>
+      <button className='nav-btn'>CONTACT</button>
+    </header>
+
 
 .body {
   border: solid 2px red;
