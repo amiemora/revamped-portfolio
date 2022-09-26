@@ -15,6 +15,7 @@ body {
 }
 .black-bg {
   background: black;
+  color: yellow;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

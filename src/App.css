@@ -3,6 +3,8 @@
 @tailwind utilities;
 @tailwindcss/forms;
 
+
+
 .container{
   background-color: #000;
   width: 100%;
@@ -10,6 +12,7 @@
 .girl-img {
   width: 45%;
   height: 45%;
+
 }
 .comp-img {
   border-radius: 6em;
@@ -242,6 +245,7 @@ a {
 .fixed-bottom {
   background-color: black;
   height: 5em;
+  margin-top: 2em;
 }
 .footer {
   list-style: none;
@@ -254,4 +258,80 @@ i {
   margin-top: 1em;
   color: yellow;
   margin-left: .5em;
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.proj-card {
+  margin-right: 1em;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  margin-bottom: 1.5em;
+}
+
+.proj-btn {
+  text-decoration: none;
+  margin-right: .5em;
+}
+.proj-btn:hover {
+  background: yellow;
+}
+
+
+.body-content {
+  margin-bottom: 9em;
+}
+
+.about-div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 6em;
+}
+.about-me {
+  font-size: 2em;
+  margin-left: 2em;
+  
+}
+
+
+.contact-div{
+  margin-top: 5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.h3-c {
+  font-size: 2.5em;
+}
+.p-contact{
+  margin-top: 2em;
+  text-align: center;
+}
+.p-contact i {
+  width: 200px;
+  height: 200px;
+}
+.text-c {
+  font-size: 2em;
+}
+
+.resume-link {
+  text-align: center;
+}
+.img-resume img{
+  justify-content: center;
+  text-align: center;
+}
+.resume-div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

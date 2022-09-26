@@ -79,7 +79,7 @@ return (
             </ul>
         </nav>
         </header>
-    <div>
+    <div className="body-content">
       {displayHome ? <Feed/> : null}
       {displayAbout ?  <About /> : null}
       {displayContact ? <Contact /> : null}
